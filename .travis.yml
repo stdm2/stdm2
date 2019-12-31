@@ -58,7 +58,7 @@ before_script:
   - |
       if (( $num_errors_after < $num_errors_before )); then  > /dev/null || echo "Pep8 not fixed"
           git commit -a -m "PEP-8 Fix"
-          git push -fq --repo https://$USER_NAME:$USER_PASSWORD@github.com/kngeno/stdm2.git origin  # --quiet
+          git push -fq --repo https://$USER_NAME:$USER_PASSWORD@github.com/stdm2/stdm2.git origin  # --quiet
       fi
   # Lists the remaining errors - these will have to be fixed manually
   # - pycodestyle --ignore=E402,W503 stdm/
@@ -91,7 +91,7 @@ deploy:
     github_token: $STDM_TOKEN  # Set in the settings page of your repository, as a secure variable
     keep_history: true
     local_dir: docs # The folder that needs to be deployed
-    repo: kngeno/stdm2 # Add your username/project_name here
+    repo: stdm2/stdm2 # Add your username/project_name here
     target_branch: gh-pages # Tell Travis to deploy on the gh-pages branch
     on:
       branch: master
@@ -117,8 +117,8 @@ deploy:
       branch: master
       
   - provider: releases
-    user: $USER
-    password: $PASSWORD
+    user: $USER_NAME
+    password: $USER_PASSWORD
     file:
       - stdm_*.tar.gz
       - stdm_*.zip
@@ -134,8 +134,9 @@ after_deploy:
 
 notifications: 
   email: 
-    on_failure: never #always
+    on_failure: always #always #never
     on_success: never #always
     recipients: 
       - kngeno.kevin@gmail.com # add user group email/ communication channels
+      - kngeno.dev@gmail.com
 

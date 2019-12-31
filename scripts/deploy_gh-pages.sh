@@ -2,9 +2,9 @@
 # Push HTML files to gh-pages automatically.
 
 # Fill this out with the correct org/repo
-ORG=kngeno
+ORG=stdm2
 REPO=stdm2
-EMAIL=kngeno.kevin@gmail.com
+EMAIL=kngeno.dev@gmail.com
 
 set -e
 
