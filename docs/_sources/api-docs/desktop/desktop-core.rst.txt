@@ -1,8 +1,0 @@
-.. _desktop_core:
-
-Core
-================================
-
-.. toctree::
-
-    stdm.core

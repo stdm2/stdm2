@@ -1,9 +1,0 @@
-.. _doc_getting_started_tutorials_online:
-
-
-STDM Online
-===============================
-
-.. toctree::
-   :maxdepth: 2
-   :name: getting_started_tutorials_online
