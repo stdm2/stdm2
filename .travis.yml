@@ -86,7 +86,7 @@ before_deploy:
   - chmod +x -R scripts/
 
 deploy:
-  - provider: pages
+  - provider: pages #pages 
     skip_cleanup: true
     github_token: $STDM_TOKEN  # Set in the settings page of your repository, as a secure variable
     keep_history: true
