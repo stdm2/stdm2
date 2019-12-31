@@ -1,8 +1,11 @@
 .. _doc_getting_started_desktop:
 
+<<<<<<< HEAD
+=======
 STDM Desktop
 ===============================
 
+>>>>>>> 9b0ae576bea4c00a33c2c5e05922c10307ab9854
 Prerequisites
 -------------------------------------
 
@@ -21,7 +24,11 @@ The following need to be installed:
 This is not necessary if you are working with QGIS 2.14 or higher and PostgreSQL 9.5 or higher. If you have lower versions, we cannot guarantee the full functionality of STDM. However, in such a case, you need to do the following:
 
 1. Start QGIS normally and wait for it to load
+<<<<<<< HEAD
+2. Download the latest version of `STDM plugin from GitHub <https://github.com/gltn/stdm2/>`_ by adding STDM download repository in the QGIS Plugin manager. See instructions here `Download From repository <https://stdm.gltn.net/docs/1_7/index.htm#t=installingfromgltnpluginreposito.htm>`_
+=======
 2. Download the latest version of `STDM plugin from GitHub <https://github.com/gltn/stdm/>`_ by adding STDM download repository in the QGIS Plugin manager. See instructions here `Download From repository <https://stdm.gltn.net/docs/1_7/index.htm#t=installingfromgltnpluginreposito.htm>`_
+>>>>>>> 9b0ae576bea4c00a33c2c5e05922c10307ab9854
 3. Using PostgreSQL database Administrator i.e pgAdmin (), create a new database called stdm.
 4. Install PostGIS extension created for the PostgreSQL version you are using. You can download it from `PostGIS site <http://postgis.net/install/>`_.
 5. On the QGIS window, check if STDM is enabled on the menu and toolbar 
