@@ -1,8 +1,0 @@
-.. _desktop_apps:
-
-App
-================================
-
-.. toctree::
-
-    stdm.app
