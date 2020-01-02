@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-# baseurl: ""
+baseurl: "/"
 source: documentation/build/html
 destination: docs/
 include: ["_modules","_sources","_static"]
