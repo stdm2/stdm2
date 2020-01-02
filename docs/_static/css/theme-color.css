@@ -1,0 +1,17 @@
+/* .wy-side-nav-search{display:block;width:300px;padding:.809em;margin-bottom:.809em;z-index:200;background-color:#d45f00;text-align:center;padding:.809em;display:block;color:#fcfcfc;margin-bottom:.809em} */
+
+.wy-nav-top {
+    background-color: #FF8C38 !important;
+}
+.wy-side-nav-search {
+    background-color: #FF8C38 !important;
+}
+
+
+div[class^="highlight"] a {
+    background-color: #E6E6E6;
+}
+
+div[class^="highlight"] a:hover {
+    background-color: #ABECFC;
+}
