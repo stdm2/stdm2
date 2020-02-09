@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
+email: kngeno.kevin@gmail.com
+url: stdm2.github.io
 baseurl: https://stdm2.github.io/stdm2
 production_url : https://stdm2.github.io/stdm2
 source: documentation/build/html
