@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 baseurl: "/"
 source: documentation/build/html
 destination: docs/
-include: ["_modules","_sources","_static"]
+include: ["_modules","_sources","_static",_"images"]
 timezone: Africa/Nairobi
 title: STDM 2.0 Documentation
 name: STDM 2.0 Documentation
