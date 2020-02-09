@@ -5,7 +5,7 @@ baseurl: https://stdm2.github.io/stdm2
 production_url : https://stdm2.github.io/stdm2
 source: documentation/build/html
 destination: docs/
-include: ["_modules","_sources","_static","_images",]
+include: ["_modules","_sources","_static","_images"]
 timezone: Africa/Nairobi
 title: STDM 2.0 Documentation
 name: STDM 2.0 Documentation
